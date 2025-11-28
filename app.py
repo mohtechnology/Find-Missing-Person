@@ -18,9 +18,9 @@ db = SQLAlchemy(app)
 app.config["MAIL_SERVER"] = "smtp.gmail.com"
 app.config["MAIL_PORT"] = 587
 app.config["MAIL_USE_TLS"] = True
-app.config["MAIL_USERNAME"] = "mohshinmansuri123@gmail.com"      # <== put your Gmail here
-app.config["MAIL_PASSWORD"] = "uiim ptpt qwby uope"         # <== put your Gmail app password here
-app.config["MAIL_DEFAULT_SENDER"] = ("FaceApp Alerts", "mohshinmansuri123@gmail.com")
+app.config["MAIL_USERNAME"] = "mohtechnology@gmail.com"      # <== put your Gmail here
+app.config["MAIL_PASSWORD"] = "uiim ptpt qwby uhjk"         # <== put your Gmail app password here
+app.config["MAIL_DEFAULT_SENDER"] = ("FaceApp Alerts", "mohtechnology@gmail.com")
 mail = Mail(app)
 
 # Upload folder
@@ -162,3 +162,4 @@ if __name__ == "__main__":
     with app.app_context():
         db.create_all()
     app.run(debug=True)
+
